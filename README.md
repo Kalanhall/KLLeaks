@@ -22,7 +22,7 @@ pod 'KLLeaks'
 
 ## Author
 
-Kalanhall@163.com, Kalanhall@163.com
+Kalan, Kalanhall@163.com
 
 ## License
 
