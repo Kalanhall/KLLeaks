@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0590DC5D88840780A3DBD7BAC89CB836 /* Pods-KLLeaks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE966C3EDEABB4EC1AC809828E6877C3 /* Pods-KLLeaks_Tests-dummy.m */; };
+		2357D7F1DEEC1E47003393E1699E9DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3387CB92581072C9340F84C17F42259F /* UISplitViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C8C1F649272F55604D2285C88295DC /* UISplitViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C5F7D0C1B5147908164201D6BE8F43 /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E460A570EB67CB72D110B6D6F967868 /* UITabBarController+MemoryLeak.m */; };
+		3A397614337370B6C687BE4BCA817BD0 /* UIView+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B61BF5F152727CDB989B96E23C28222 /* UIView+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F79ABDE6A3BFDF3871658B808A0D646 /* UIPageViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = E00D40D37B456E1518BC2F31D3F25ACB /* UIPageViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420EB57E314BF6FB7E5A06C67958948F /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 1294E888C5FAD8AD10AC6420C4C65DA7 /* UIViewController+MemoryLeak.m */; };
+		48402338610DC39756E7F410A8311CB7 /* Pods-KLLeaks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD3FBC1D47766A67C9626DEFCA01693 /* Pods-KLLeaks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E2CEF65A6ED6CD15ABA3281C3DF6220 /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FFC56458153A8C14366B645A0FC574 /* UIView+MemoryLeak.m */; };
+		7794AFD5F1F915A51672492DB6828D6A /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C837831E3AB55D2BD1B52FDEE5F3AA8 /* UISplitViewController+MemoryLeak.m */; };
+		78106BDB20B48046C3D7AEB2AE836042 /* KLLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D18465B8273E98AAE7D0B6B41A04C /* KLLeaksMessenger.m */; };
+		887292FCD6F0F220F5B181383DB201F8 /* Pods-KLLeaks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0DD0913271BE1B9514F0CFE204B50 /* Pods-KLLeaks_Example-dummy.m */; };
+		8BE1DB60339F3BAA824B2225EB4CA64A /* Pods-KLLeaks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0392AB1CEFD75E885ED029010F58EF /* Pods-KLLeaks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D2117F5B2324065EAF546F8937B633 /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BBBD13D62BA608DA27FD79050035E0 /* NSObject+MemoryLeak.m */; };
+		9A4ADDA2679F3B8D2265440E3FD11DCE /* MLeaksFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB0638083C1785563CC74C2454FB24F /* MLeaksFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1079CC51296ADE8E0F5A3E48B9480FB /* KLLeaks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E1216910C374D69E9324F5A17427C2 /* KLLeaks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A130275BA4D75C78311BB2924EDFAA4C /* UIViewController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0627F2D391848AAE10FAD0A7A03487 /* UIViewController+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B322C065DE7812FC5E941DC3E20207F5 /* UITabBarController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = A682C9E8A888C85B8C0AF865838FDA1A /* UITabBarController+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D69601C23C2DA3904ACB6678E725D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B791EEC7B47AE959ADF8D8308D989059 /* UITouch+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 6193D8E67C10E894E13CC01516A3B3D5 /* UITouch+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAAACDC4A27C9276FD7A60634F560E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF8DCDE149FBD30308336E4EFE45A92E /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = D9567F291C68DA8D9BED578947E29ABA /* UIApplication+MemoryLeak.m */; };
+		C73FB2BFB999BD05015C780E097A3AAA /* KLLeaksMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 50BD1B60A4C74619366D8B5A4179A34D /* KLLeaksMessenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC62600D3843BDE04BC09F1397E1B14C /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C51E3CF39480D94536B1D66EA43D37 /* UITouch+MemoryLeak.m */; };
+		CEFBE632BB347F7672A56B6B195A9195 /* UINavigationController+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = 1029D81A19414F385C13FF5EB1ED57A2 /* UINavigationController+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D772A6B76BD93D48884D48D16B99753E /* KLLeakedObjectProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FF8498357AD0D806D1CF400DC851B1 /* KLLeakedObjectProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1B4E06DE07E920F060FDD200CAD983 /* KLLeaks.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA15D4A35DE167C3901B604066D68F3 /* KLLeaks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA720511EF716653843510C570B81BD9 /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D3D43A44308F77F499F44DEC7774C7 /* UINavigationController+MemoryLeak.m */; };
+		E0AA6F92809D9A0EA38523315785ED8D /* KLLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ECD5CC76BD3CF99CF41FC57C8CDDED /* KLLeakedObjectProxy.m */; };
+		EB230CB75CB30ACB64E42BA5FA9797A7 /* UIApplication+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC0EEBC8FD55808DDB8A99888FAB086 /* UIApplication+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFFA67C1AAF45BAFEB73759D747F5E7A /* NSObject+MemoryLeak.h in Headers */ = {isa = PBXBuildFile; fileRef = D62A489D40F8DCB273A601C1633CA3A1 /* NSObject+MemoryLeak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B88E05C8906F05B070E2ED36DEE54D /* KLLeaks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19352D90A94E59E630B1A90D4D4B2FBD /* KLLeaks-dummy.m */; };
+		F324A68895C422ACD9B8B91117DCA892 /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6525DE96AA98D3D10AC70DE91A06 /* UIPageViewController+MemoryLeak.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37224CEA7FB39385CE9FDB99B3EB980F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EF48559498D5589930A9B56F7BDCCE;
+			remoteInfo = "Pods-KLLeaks_Example";
+		};
+		61ADDB64040140C54CE1555A870B932E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB89C9E2B3496D662DB3F33C2DE0DFA;
+			remoteInfo = KLLeaks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FF8498357AD0D806D1CF400DC851B1 /* KLLeakedObjectProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLLeakedObjectProxy.h; path = KLLeaks/Classes/KLLeakedObjectProxy.h; sourceTree = "<group>"; };
+		048E19150CCC2AA428C1AC96AEE1D864 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1029D81A19414F385C13FF5EB1ED57A2 /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+MemoryLeak.h"; path = "KLLeaks/Classes/UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		1294E888C5FAD8AD10AC6420C4C65DA7 /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MemoryLeak.m"; path = "KLLeaks/Classes/UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		19352D90A94E59E630B1A90D4D4B2FBD /* KLLeaks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLLeaks-dummy.m"; sourceTree = "<group>"; };
+		2466E09820296EE8350DB2BEAAB6AC81 /* Pods-KLLeaks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLLeaks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B0392AB1CEFD75E885ED029010F58EF /* Pods-KLLeaks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLLeaks_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2B61BF5F152727CDB989B96E23C28222 /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MemoryLeak.h"; path = "KLLeaks/Classes/UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		2CD0DD0913271BE1B9514F0CFE204B50 /* Pods-KLLeaks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLLeaks_Example-dummy.m"; sourceTree = "<group>"; };
+		3096580679A9238C4BDF66846EA5E224 /* KLLeaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLLeaks.framework; path = KLLeaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37FFC56458153A8C14366B645A0FC574 /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MemoryLeak.m"; path = "KLLeaks/Classes/UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		3CA15D4A35DE167C3901B604066D68F3 /* KLLeaks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLLeaks.h; path = KLLeaks/Classes/KLLeaks.h; sourceTree = "<group>"; };
+		3CD3FBC1D47766A67C9626DEFCA01693 /* Pods-KLLeaks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLLeaks_Example-umbrella.h"; sourceTree = "<group>"; };
+		3EE8F6E798C7DEE1E3A98D6B2D49EC95 /* Pods-KLLeaks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLLeaks_Example.release.xcconfig"; sourceTree = "<group>"; };
+		45E1216910C374D69E9324F5A17427C2 /* KLLeaks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLLeaks-umbrella.h"; sourceTree = "<group>"; };
+		50BD1B60A4C74619366D8B5A4179A34D /* KLLeaksMessenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KLLeaksMessenger.h; path = KLLeaks/Classes/KLLeaksMessenger.h; sourceTree = "<group>"; };
+		54AF40F00CB436DA3A7ADA605691A22D /* KLLeaks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KLLeaks.modulemap; sourceTree = "<group>"; };
+		5E0627F2D391848AAE10FAD0A7A03487 /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MemoryLeak.h"; path = "KLLeaks/Classes/UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		6193D8E67C10E894E13CC01516A3B3D5 /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch+MemoryLeak.h"; path = "KLLeaks/Classes/UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		660163332EC32F518DF8AEC617DBA516 /* Pods-KLLeaks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLLeaks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6977FAD44E4A476E743E07BA226F65B6 /* Pods_KLLeaks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLLeaks_Example.framework; path = "Pods-KLLeaks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C51E3CF39480D94536B1D66EA43D37 /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch+MemoryLeak.m"; path = "KLLeaks/Classes/UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		6CC8C78B9C24B46FBF2186A18591E5B2 /* Pods-KLLeaks_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLLeaks_Tests-Info.plist"; sourceTree = "<group>"; };
+		6E460A570EB67CB72D110B6D6F967868 /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+MemoryLeak.m"; path = "KLLeaks/Classes/UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		6F89C4A61409331F9D269B5AB11B1812 /* Pods-KLLeaks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLLeaks_Example.modulemap"; sourceTree = "<group>"; };
+		75E967FFE6D920033AC18284A91552D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		765CEEA0601D195EE6CC9B52ADBD141B /* Pods-KLLeaks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLLeaks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A72C520636CFDB92807FDEEBB682D40 /* Pods-KLLeaks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLLeaks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1809C427A788FCED55D0D73E108524 /* KLLeaks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLLeaks-prefix.pch"; sourceTree = "<group>"; };
+		7C837831E3AB55D2BD1B52FDEE5F3AA8 /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+MemoryLeak.m"; path = "KLLeaks/Classes/UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		8439D682C5974262FFE48149A31F02CF /* Pods-KLLeaks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLLeaks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FD5A0AB8A2E6CEB3A3AAC0E061CBDA1 /* Pods-KLLeaks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLLeaks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90C8C1F649272F55604D2285C88295DC /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISplitViewController+MemoryLeak.h"; path = "KLLeaks/Classes/UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		93ECD5CC76BD3CF99CF41FC57C8CDDED /* KLLeakedObjectProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLLeakedObjectProxy.m; path = KLLeaks/Classes/KLLeakedObjectProxy.m; sourceTree = "<group>"; };
+		9CE559CC5AB527914CC4578E5B25EB4A /* Pods_KLLeaks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLLeaks_Tests.framework; path = "Pods-KLLeaks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2D18465B8273E98AAE7D0B6B41A04C /* KLLeaksMessenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KLLeaksMessenger.m; path = KLLeaks/Classes/KLLeaksMessenger.m; sourceTree = "<group>"; };
+		A5466B6B6A6C80AFB52CAB1927D17012 /* KLLeaks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KLLeaks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A682C9E8A888C85B8C0AF865838FDA1A /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+MemoryLeak.h"; path = "KLLeaks/Classes/UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		A6CF5466EC7FB2082F40264B343360CD /* KLLeaks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLLeaks.xcconfig; sourceTree = "<group>"; };
+		A9EE21551E22401D907AC7341C6FC67F /* KLLeaks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KLLeaks-Info.plist"; sourceTree = "<group>"; };
+		AAEA8EB36E763FD79CCB3E508113785B /* Pods-KLLeaks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KLLeaks_Tests.modulemap"; sourceTree = "<group>"; };
+		C30CFE2FED2325DB5CE759E1802BE41E /* Pods-KLLeaks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLLeaks_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C3BBBD13D62BA608DA27FD79050035E0 /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MemoryLeak.m"; path = "KLLeaks/Classes/NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		C639A01D25757A80231174486356AEC3 /* Pods-KLLeaks_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLLeaks_Example-Info.plist"; sourceTree = "<group>"; };
+		CE966C3EDEABB4EC1AC809828E6877C3 /* Pods-KLLeaks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLLeaks_Tests-dummy.m"; sourceTree = "<group>"; };
+		D62A489D40F8DCB273A601C1633CA3A1 /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MemoryLeak.h"; path = "KLLeaks/Classes/NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		D9567F291C68DA8D9BED578947E29ABA /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MemoryLeak.m"; path = "KLLeaks/Classes/UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		DB3D6525DE96AA98D3D10AC70DE91A06 /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPageViewController+MemoryLeak.m"; path = "KLLeaks/Classes/UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		DCB0638083C1785563CC74C2454FB24F /* MLeaksFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLeaksFinder.h; path = KLLeaks/Classes/MLeaksFinder.h; sourceTree = "<group>"; };
+		E00D40D37B456E1518BC2F31D3F25ACB /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageViewController+MemoryLeak.h"; path = "KLLeaks/Classes/UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		E369C6C8217CD0D3927C069F93BA2C37 /* Pods-KLLeaks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLLeaks_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D3D43A44308F77F499F44DEC7774C7 /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+MemoryLeak.m"; path = "KLLeaks/Classes/UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		FDC0EEBC8FD55808DDB8A99888FAB086 /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MemoryLeak.h"; path = "KLLeaks/Classes/UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492A386F1D12069318CC63A7ECD96B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAACDC4A27C9276FD7A60634F560E8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEAE17760F66BE9300432B09359D119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2357D7F1DEEC1E47003393E1699E9DA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE544699D45908195909EE07F8F83134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D69601C23C2DA3904ACB6678E725D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193192FA8E9C7EF645C511C91E1BE871 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54AF40F00CB436DA3A7ADA605691A22D /* KLLeaks.modulemap */,
+				A6CF5466EC7FB2082F40264B343360CD /* KLLeaks.xcconfig */,
+				19352D90A94E59E630B1A90D4D4B2FBD /* KLLeaks-dummy.m */,
+				A9EE21551E22401D907AC7341C6FC67F /* KLLeaks-Info.plist */,
+				7C1809C427A788FCED55D0D73E108524 /* KLLeaks-prefix.pch */,
+				45E1216910C374D69E9324F5A17427C2 /* KLLeaks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KLLeaks";
+			sourceTree = "<group>";
+		};
+		2B02FEB3BE235C1BEF522E098659EC0E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D1ED2253A836167502BAF0681AE3F /* KLLeaks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2BA76C50368DBB3BAE5C571E44BAF3F7 /* Pods-KLLeaks_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA8EB36E763FD79CCB3E508113785B /* Pods-KLLeaks_Tests.modulemap */,
+				2466E09820296EE8350DB2BEAAB6AC81 /* Pods-KLLeaks_Tests-acknowledgements.markdown */,
+				8439D682C5974262FFE48149A31F02CF /* Pods-KLLeaks_Tests-acknowledgements.plist */,
+				CE966C3EDEABB4EC1AC809828E6877C3 /* Pods-KLLeaks_Tests-dummy.m */,
+				6CC8C78B9C24B46FBF2186A18591E5B2 /* Pods-KLLeaks_Tests-Info.plist */,
+				2B0392AB1CEFD75E885ED029010F58EF /* Pods-KLLeaks_Tests-umbrella.h */,
+				7A72C520636CFDB92807FDEEBB682D40 /* Pods-KLLeaks_Tests.debug.xcconfig */,
+				765CEEA0601D195EE6CC9B52ADBD141B /* Pods-KLLeaks_Tests.release.xcconfig */,
+			);
+			name = "Pods-KLLeaks_Tests";
+			path = "Target Support Files/Pods-KLLeaks_Tests";
+			sourceTree = "<group>";
+		};
+		586552D3901E114CA7D9B5048DA9CDF9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A5466B6B6A6C80AFB52CAB1927D17012 /* KLLeaks.podspec */,
+				048E19150CCC2AA428C1AC96AEE1D864 /* LICENSE */,
+				75E967FFE6D920033AC18284A91552D0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		591A98851530F7E899FAB97A92763B0E /* Pods-KLLeaks_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6F89C4A61409331F9D269B5AB11B1812 /* Pods-KLLeaks_Example.modulemap */,
+				8FD5A0AB8A2E6CEB3A3AAC0E061CBDA1 /* Pods-KLLeaks_Example-acknowledgements.markdown */,
+				660163332EC32F518DF8AEC617DBA516 /* Pods-KLLeaks_Example-acknowledgements.plist */,
+				2CD0DD0913271BE1B9514F0CFE204B50 /* Pods-KLLeaks_Example-dummy.m */,
+				C30CFE2FED2325DB5CE759E1802BE41E /* Pods-KLLeaks_Example-frameworks.sh */,
+				C639A01D25757A80231174486356AEC3 /* Pods-KLLeaks_Example-Info.plist */,
+				3CD3FBC1D47766A67C9626DEFCA01693 /* Pods-KLLeaks_Example-umbrella.h */,
+				E369C6C8217CD0D3927C069F93BA2C37 /* Pods-KLLeaks_Example.debug.xcconfig */,
+				3EE8F6E798C7DEE1E3A98D6B2D49EC95 /* Pods-KLLeaks_Example.release.xcconfig */,
+			);
+			name = "Pods-KLLeaks_Example";
+			path = "Target Support Files/Pods-KLLeaks_Example";
+			sourceTree = "<group>";
+		};
+		8021C9BE4CCDB10B5E62D4A9205BAA27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3096580679A9238C4BDF66846EA5E224 /* KLLeaks.framework */,
+				6977FAD44E4A476E743E07BA226F65B6 /* Pods_KLLeaks_Example.framework */,
+				9CE559CC5AB527914CC4578E5B25EB4A /* Pods_KLLeaks_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4D1ED2253A836167502BAF0681AE3F /* KLLeaks */ = {
+			isa = PBXGroup;
+			children = (
+				00FF8498357AD0D806D1CF400DC851B1 /* KLLeakedObjectProxy.h */,
+				93ECD5CC76BD3CF99CF41FC57C8CDDED /* KLLeakedObjectProxy.m */,
+				3CA15D4A35DE167C3901B604066D68F3 /* KLLeaks.h */,
+				50BD1B60A4C74619366D8B5A4179A34D /* KLLeaksMessenger.h */,
+				9F2D18465B8273E98AAE7D0B6B41A04C /* KLLeaksMessenger.m */,
+				DCB0638083C1785563CC74C2454FB24F /* MLeaksFinder.h */,
+				D62A489D40F8DCB273A601C1633CA3A1 /* NSObject+MemoryLeak.h */,
+				C3BBBD13D62BA608DA27FD79050035E0 /* NSObject+MemoryLeak.m */,
+				FDC0EEBC8FD55808DDB8A99888FAB086 /* UIApplication+MemoryLeak.h */,
+				D9567F291C68DA8D9BED578947E29ABA /* UIApplication+MemoryLeak.m */,
+				1029D81A19414F385C13FF5EB1ED57A2 /* UINavigationController+MemoryLeak.h */,
+				E5D3D43A44308F77F499F44DEC7774C7 /* UINavigationController+MemoryLeak.m */,
+				E00D40D37B456E1518BC2F31D3F25ACB /* UIPageViewController+MemoryLeak.h */,
+				DB3D6525DE96AA98D3D10AC70DE91A06 /* UIPageViewController+MemoryLeak.m */,
+				90C8C1F649272F55604D2285C88295DC /* UISplitViewController+MemoryLeak.h */,
+				7C837831E3AB55D2BD1B52FDEE5F3AA8 /* UISplitViewController+MemoryLeak.m */,
+				A682C9E8A888C85B8C0AF865838FDA1A /* UITabBarController+MemoryLeak.h */,
+				6E460A570EB67CB72D110B6D6F967868 /* UITabBarController+MemoryLeak.m */,
+				6193D8E67C10E894E13CC01516A3B3D5 /* UITouch+MemoryLeak.h */,
+				69C51E3CF39480D94536B1D66EA43D37 /* UITouch+MemoryLeak.m */,
+				2B61BF5F152727CDB989B96E23C28222 /* UIView+MemoryLeak.h */,
+				37FFC56458153A8C14366B645A0FC574 /* UIView+MemoryLeak.m */,
+				5E0627F2D391848AAE10FAD0A7A03487 /* UIViewController+MemoryLeak.h */,
+				1294E888C5FAD8AD10AC6420C4C65DA7 /* UIViewController+MemoryLeak.m */,
+				586552D3901E114CA7D9B5048DA9CDF9 /* Pod */,
+				193192FA8E9C7EF645C511C91E1BE871 /* Support Files */,
+			);
+			name = KLLeaks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2B02FEB3BE235C1BEF522E098659EC0E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8021C9BE4CCDB10B5E62D4A9205BAA27 /* Products */,
+				D3FCCB4CF7BEB07A366D273DEFE43261 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FCCB4CF7BEB07A366D273DEFE43261 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				591A98851530F7E899FAB97A92763B0E /* Pods-KLLeaks_Example */,
+				2BA76C50368DBB3BAE5C571E44BAF3F7 /* Pods-KLLeaks_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24CFE8B2386D079536F773FB1F5C8AD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE1DB60339F3BAA824B2225EB4CA64A /* Pods-KLLeaks_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7883AB8659712676DE61D170487A5831 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D772A6B76BD93D48884D48D16B99753E /* KLLeakedObjectProxy.h in Headers */,
+				A1079CC51296ADE8E0F5A3E48B9480FB /* KLLeaks-umbrella.h in Headers */,
+				DA1B4E06DE07E920F060FDD200CAD983 /* KLLeaks.h in Headers */,
+				C73FB2BFB999BD05015C780E097A3AAA /* KLLeaksMessenger.h in Headers */,
+				9A4ADDA2679F3B8D2265440E3FD11DCE /* MLeaksFinder.h in Headers */,
+				EFFA67C1AAF45BAFEB73759D747F5E7A /* NSObject+MemoryLeak.h in Headers */,
+				EB230CB75CB30ACB64E42BA5FA9797A7 /* UIApplication+MemoryLeak.h in Headers */,
+				CEFBE632BB347F7672A56B6B195A9195 /* UINavigationController+MemoryLeak.h in Headers */,
+				3F79ABDE6A3BFDF3871658B808A0D646 /* UIPageViewController+MemoryLeak.h in Headers */,
+				3387CB92581072C9340F84C17F42259F /* UISplitViewController+MemoryLeak.h in Headers */,
+				B322C065DE7812FC5E941DC3E20207F5 /* UITabBarController+MemoryLeak.h in Headers */,
+				B791EEC7B47AE959ADF8D8308D989059 /* UITouch+MemoryLeak.h in Headers */,
+				3A397614337370B6C687BE4BCA817BD0 /* UIView+MemoryLeak.h in Headers */,
+				A130275BA4D75C78311BB2924EDFAA4C /* UIViewController+MemoryLeak.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C417015572EE38817BA7CCD80C008 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48402338610DC39756E7F410A8311CB7 /* Pods-KLLeaks_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1686614E10074D137D2BEE5E1DBBABE2 /* Pods-KLLeaks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C1E493BE88DD7FA1B8164534069FF7C /* Build configuration list for PBXNativeTarget "Pods-KLLeaks_Tests" */;
+			buildPhases = (
+				24CFE8B2386D079536F773FB1F5C8AD1 /* Headers */,
+				CEBB2BE6E1C41B74FD76F29DC4021897 /* Sources */,
+				492A386F1D12069318CC63A7ECD96B8C /* Frameworks */,
+				E71B6B2D727DEADD0BCAF1CDBD5D5869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3021CBD2EAB18F19E0D5D83A424DB7E /* PBXTargetDependency */,
+			);
+			name = "Pods-KLLeaks_Tests";
+			productName = "Pods-KLLeaks_Tests";
+			productReference = 9CE559CC5AB527914CC4578E5B25EB4A /* Pods_KLLeaks_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32EF48559498D5589930A9B56F7BDCCE /* Pods-KLLeaks_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20320AFA34AA3373B5087986AC351DAD /* Build configuration list for PBXNativeTarget "Pods-KLLeaks_Example" */;
+			buildPhases = (
+				D02C417015572EE38817BA7CCD80C008 /* Headers */,
+				53A2586B575F687749CEA3E02B62699D /* Sources */,
+				CE544699D45908195909EE07F8F83134 /* Frameworks */,
+				17F4F9826EF9A01E1DF37ACF13AEEF93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1165BB90264393E76904BFEB1EEF041 /* PBXTargetDependency */,
+			);
+			name = "Pods-KLLeaks_Example";
+			productName = "Pods-KLLeaks_Example";
+			productReference = 6977FAD44E4A476E743E07BA226F65B6 /* Pods_KLLeaks_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEB89C9E2B3496D662DB3F33C2DE0DFA /* KLLeaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B15121A2BF82DFAC24BF240DB9628A /* Build configuration list for PBXNativeTarget "KLLeaks" */;
+			buildPhases = (
+				7883AB8659712676DE61D170487A5831 /* Headers */,
+				5B56EE620BEEFE37988E8BF046B1A9C6 /* Sources */,
+				4CEAE17760F66BE9300432B09359D119 /* Frameworks */,
+				8F5FC1885014F1614DA5154A233458F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLLeaks;
+			productName = KLLeaks;
+			productReference = 3096580679A9238C4BDF66846EA5E224 /* KLLeaks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8021C9BE4CCDB10B5E62D4A9205BAA27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB89C9E2B3496D662DB3F33C2DE0DFA /* KLLeaks */,
+				32EF48559498D5589930A9B56F7BDCCE /* Pods-KLLeaks_Example */,
+				1686614E10074D137D2BEE5E1DBBABE2 /* Pods-KLLeaks_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17F4F9826EF9A01E1DF37ACF13AEEF93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5FC1885014F1614DA5154A233458F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71B6B2D727DEADD0BCAF1CDBD5D5869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53A2586B575F687749CEA3E02B62699D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887292FCD6F0F220F5B181383DB201F8 /* Pods-KLLeaks_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B56EE620BEEFE37988E8BF046B1A9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AA6F92809D9A0EA38523315785ED8D /* KLLeakedObjectProxy.m in Sources */,
+				F1B88E05C8906F05B070E2ED36DEE54D /* KLLeaks-dummy.m in Sources */,
+				78106BDB20B48046C3D7AEB2AE836042 /* KLLeaksMessenger.m in Sources */,
+				90D2117F5B2324065EAF546F8937B633 /* NSObject+MemoryLeak.m in Sources */,
+				BF8DCDE149FBD30308336E4EFE45A92E /* UIApplication+MemoryLeak.m in Sources */,
+				DA720511EF716653843510C570B81BD9 /* UINavigationController+MemoryLeak.m in Sources */,
+				F324A68895C422ACD9B8B91117DCA892 /* UIPageViewController+MemoryLeak.m in Sources */,
+				7794AFD5F1F915A51672492DB6828D6A /* UISplitViewController+MemoryLeak.m in Sources */,
+				37C5F7D0C1B5147908164201D6BE8F43 /* UITabBarController+MemoryLeak.m in Sources */,
+				CC62600D3843BDE04BC09F1397E1B14C /* UITouch+MemoryLeak.m in Sources */,
+				4E2CEF65A6ED6CD15ABA3281C3DF6220 /* UIView+MemoryLeak.m in Sources */,
+				420EB57E314BF6FB7E5A06C67958948F /* UIViewController+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB2BE6E1C41B74FD76F29DC4021897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0590DC5D88840780A3DBD7BAC89CB836 /* Pods-KLLeaks_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1165BB90264393E76904BFEB1EEF041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KLLeaks;
+			target = BEB89C9E2B3496D662DB3F33C2DE0DFA /* KLLeaks */;
+			targetProxy = 61ADDB64040140C54CE1555A870B932E /* PBXContainerItemProxy */;
+		};
+		E3021CBD2EAB18F19E0D5D83A424DB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KLLeaks_Example";
+			target = 32EF48559498D5589930A9B56F7BDCCE /* Pods-KLLeaks_Example */;
+			targetProxy = 37224CEA7FB39385CE9FDB99B3EB980F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EE4CD9D719B99C1B783D3B6CEE49024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CF5466EC7FB2082F40264B343360CD /* KLLeaks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLLeaks/KLLeaks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLLeaks/KLLeaks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLLeaks/KLLeaks.modulemap";
+				PRODUCT_MODULE_NAME = KLLeaks;
+				PRODUCT_NAME = KLLeaks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47DCFF8E798CD8987FCC59FDF86AAC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CF5466EC7FB2082F40264B343360CD /* KLLeaks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KLLeaks/KLLeaks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLLeaks/KLLeaks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLLeaks/KLLeaks.modulemap";
+				PRODUCT_MODULE_NAME = KLLeaks;
+				PRODUCT_NAME = KLLeaks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC43EECF51261F403CBC23BEF01629A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E369C6C8217CD0D3927C069F93BA2C37 /* Pods-KLLeaks_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLLeaks_Example/Pods-KLLeaks_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLLeaks_Example/Pods-KLLeaks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C71A781EEA112018546FCA8575FD962F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A72C520636CFDB92807FDEEBB682D40 /* Pods-KLLeaks_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLLeaks_Tests/Pods-KLLeaks_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLLeaks_Tests/Pods-KLLeaks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB2286E1C126D424625252235C8B4C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE8F6E798C7DEE1E3A98D6B2D49EC95 /* Pods-KLLeaks_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLLeaks_Example/Pods-KLLeaks_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLLeaks_Example/Pods-KLLeaks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA2E740B5A6A62F554AF6F38C73382DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765CEEA0601D195EE6CC9B52ADBD141B /* Pods-KLLeaks_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KLLeaks_Tests/Pods-KLLeaks_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLLeaks_Tests/Pods-KLLeaks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20320AFA34AA3373B5087986AC351DAD /* Build configuration list for PBXNativeTarget "Pods-KLLeaks_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC43EECF51261F403CBC23BEF01629A8 /* Debug */,
+				DB2286E1C126D424625252235C8B4C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B15121A2BF82DFAC24BF240DB9628A /* Build configuration list for PBXNativeTarget "KLLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE4CD9D719B99C1B783D3B6CEE49024 /* Debug */,
+				47DCFF8E798CD8987FCC59FDF86AAC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C1E493BE88DD7FA1B8164534069FF7C /* Build configuration list for PBXNativeTarget "Pods-KLLeaks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71A781EEA112018546FCA8575FD962F /* Debug */,
+				FA2E740B5A6A62F554AF6F38C73382DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

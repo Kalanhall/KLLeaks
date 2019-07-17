@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KLLeaks'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KLLeaks.'
+  s.version          = '1.0.0'
+  s.summary          = '内存检测组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  组件简介：
+  通过Pod导入即可，无需导入头文件；只在Debug环境生效；
                        DESC
 
-  s.homepage         = 'https://github.com/Kalanhall@163.com/KLLeaks'
+  s.homepage         = 'https://github.com/Kalanhall'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Kalanhall@163.com' => 'Kalanhall@163.com' }
-  s.source           = { :git => 'https://github.com/Kalanhall@163.com/KLLeaks.git', :tag => s.version.to_s }
+  s.author           = { 'Kalan' => 'Kalanhall@163.com' }
+  s.source           = { :git => 'https://github.com/Kalanhall/KLLeaks.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

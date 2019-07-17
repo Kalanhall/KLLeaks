@@ -1,0 +1,6 @@
+framework module Pods_KLLeaks_Example {
+  umbrella header "Pods-KLLeaks_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KLLeaks (1.0.0)
+
+DEPENDENCIES:
+  - KLLeaks (from `../`)
+
+EXTERNAL SOURCES:
+  KLLeaks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLLeaks: 2c098234d67353bc2286d4eec6feeff14163136c
+
+PODFILE CHECKSUM: 547cc7d29a0d0999bd1b4b2fb3a3238b5048e21b
+
+COCOAPODS: 1.7.3
