@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KLLeaks_Example' do
+  pod 'KLLeaks', :path => '../'
+
+  target 'KLLeaks_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
